@@ -1,0 +1,104 @@
+main,
+header,
+section,
+aside,
+footer {
+    margin: 0;
+    padding: 20px;
+}
+
+main {
+    height: 100%;
+}
+
+header {
+    background: #FFFFFF;
+}
+
+.logo {
+    color: #6070FF;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    position: static;
+    width: 76px;
+    height: 20px;
+    left: 12px;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.hamburger {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #6070FF;
+}
+
+.headline {
+    height: 100%;
+    background-image: url("header-shapes-mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.primtext {
+    color: #172B4D;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    position: static;
+    /* width: 327px; */
+    height: 150px;
+    left: 24px;
+    top: 114px;
+}
+
+.content {
+    color: #344563;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 12px 0px;
+}
+
+.connect {
+    color: #7F8CFF;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 8px;
+}
