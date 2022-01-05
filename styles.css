@@ -12,7 +12,19 @@ main {
 }
 
 header {
-    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 375px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding: 1rem 1.5rem; */
+    justify-self: center;
+    width: 320px;
 }
 
 .logo {
@@ -28,68 +40,86 @@ header {
     left: 12px;
     top: 10px;
     display: flex;
-    align-items: center;
     text-align: center;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 1.5rem;
+    justify-self: start;
+    align-items: flex-start;
 }
 
 .hamburger {
-    display: inline-block;
-    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-self: end;
 }
 
 .bar {
     display: block;
     width: 25px;
     height: 3px;
-    margin: 5px auto;
+    margin: 2px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: #6070ff;
 }
 
 .headline {
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     background-image: url("header-shapes-mobile.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    height: 718px;
+    width: 375px;
+    left: 0px;
+    top: 0px;
+    border-radius: [object Object]px;
+}
+
+.border {
+    height: 60px;
 }
 
 .primtext {
-    color: #172b4d;
+    display: flex;
+    width: 327px;
+    height: 150px;
+    left: 24px;
+    top: 114px;
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
     line-height: 52px;
-    display: flex;
     align-items: center;
-    position: static;
-    height: 150px;
-    left: 24px;
-    top: 114px;
+    color: #172B4D;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 12px 0px;
 }
 
 .content {
-    color: #344563;
+    display: flex;
+    flex: none;
+    position: static;
+    width: 327px;
+    height: 146px;
+    left: 24px;
+    top: 276px;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
+    color: #344563;
     flex: none;
-    order: 1;
+    order: 2;
     flex-grow: 0;
     margin: 12px 0px;
 }
 
 .connect {
+    display: flex;
+    flex-direction: column;
     color: #7f8cff;
     font-family: Poppins;
     font-style: normal;
@@ -97,7 +127,7 @@ header {
     font-size: 16px;
     line-height: 24px;
     flex: none;
-    order: 0;
+    order: 99;
     flex-grow: 0;
     margin: 0px 8px;
 }
