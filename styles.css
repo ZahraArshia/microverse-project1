@@ -11,6 +11,24 @@ main {
     height: 100%;
 }
 
+.topbar {
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.clock {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -0.28px;
+    color: #000000;
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -29,7 +47,7 @@ header {
 
 .logo {
     color: #6070ff;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -117,11 +135,16 @@ header {
     margin: 12px 0px;
 }
 
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
 .connect {
     display: flex;
     flex-direction: column;
     color: #7f8cff;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -130,4 +153,12 @@ header {
     order: 99;
     flex-grow: 0;
     margin: 0px 8px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    width: 180px;
+    justify-content: space-between;
+    margin-block-start: 12px;
 }
