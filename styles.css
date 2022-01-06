@@ -82,7 +82,7 @@ header {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  background-image: url("header-shapes-mobile.png");
+  background-image: url("header-shapes-mobile.svg");
   background-repeat: no-repeat;
   height: 718px;
   width: 375px;
