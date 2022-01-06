@@ -17,6 +17,17 @@
     border-radius: 16px;
 }
 
+.card2 {
+    display: flex;
+    flex-direction: column;
+    height: 596px;
+    margin-top: 114px;
+    margin-left: 24px;
+    margin-right: 24px;
+    border: 1px solid #DFE1E6;
+    border-radius: 16px;
+}
+
 .snapshot {
     margin: 16px;
     width: 295px;
@@ -36,9 +47,31 @@
     height: 259px;
 }
 
+.block2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    width: 295px;
+    height: 332px;
+}
+
 .title {
     width: 295px;
     height: 36px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172B4D;
+    margin-bottom: 12px;
+}
+
+.title2 {
+    width: 295px;
+    height: 80px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: bold;
