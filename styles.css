@@ -86,11 +86,9 @@ header {
   background-repeat: no-repeat;
   height: 718px;
   width: 375px;
-  border-radius: [object Object]px;
 }
 
 .empty {
-  border-radius: [object Object]px;
   height: 60px;
 }
 
@@ -109,7 +107,7 @@ header {
   color: #172b4d;
   flex: none;
   order: 2;
-  margin: 12px 0px;
+  margin: 12px 1px;
 }
 
 .content {
@@ -126,7 +124,7 @@ header {
   line-height: 24px;
   color: #344563;
   order: 2;
-  margin: 12px 0px;
+  margin: 12px 1px;
 }
 
 .footer {
