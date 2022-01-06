@@ -4,10 +4,14 @@
 
 # Portfolio
 
-> the first project of microverse which should look like screenshot below:
+> this is a project of designing a mobile web paage skeleton.
+the contents are homepage, some pages including sample projects and "about" page.
 ![screenshot](./headline-mobile.png)
 
-Additional features will be add during first module of learning...
+main features of this design are:
+- easy access to sample projects 
+- minimalist and simple design
+- special focuse on social media connections
 
 ## Built With
 
