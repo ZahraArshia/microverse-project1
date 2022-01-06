@@ -26,7 +26,7 @@ main {
     line-height: 16px;
     text-align: center;
     letter-spacing: -0.28px;
-    color: #000000;
+    color: #000;
 }
 
 header {
@@ -40,7 +40,6 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* padding: 1rem 1.5rem; */
     justify-self: center;
     width: 320px;
 }
@@ -87,12 +86,11 @@ header {
     background-repeat: no-repeat;
     height: 718px;
     width: 375px;
-    left: 0px;
-    top: 0px;
     border-radius: [object Object]px;
 }
 
-.border {
+.empty {
+    border-radius: [object Object]px;
     height: 60px;
 }
 
@@ -102,36 +100,32 @@ header {
     height: 150px;
     left: 24px;
     top: 114px;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
     line-height: 52px;
     align-items: center;
-    color: #172B4D;
+    color: #172b4d;
     flex: none;
     order: 2;
-    flex-grow: 0;
     margin: 12px 0px;
 }
 
 .content {
     display: flex;
-    flex: none;
     position: static;
     width: 327px;
     height: 146px;
     left: 24px;
     top: 276px;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
     color: #344563;
-    flex: none;
     order: 2;
-    flex-grow: 0;
     margin: 12px 0px;
 }
 
@@ -149,9 +143,7 @@ header {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    flex: none;
     order: 99;
-    flex-grow: 0;
     margin: 0px 8px;
 }
 
