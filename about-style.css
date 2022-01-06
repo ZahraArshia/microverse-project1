@@ -1,0 +1,144 @@
+.wrapper {
+    display: grid;
+    width: 375px;
+    height: 1125px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 409px 602px;
+    background-color: rgb(20, 224, 224);
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 327px;
+    height: 409px;
+    margin-left: 24px;
+    margin-top: 114px;
+    background-color: red;
+}
+
+.title {
+    order: 0;
+    height: 101px;
+    width: 327px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172B4D;
+    background-color: gold;
+}
+
+.content {
+    order: 1;
+    height: 144px;
+    width: 327px;
+    margin-top: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    background-color: gold;
+}
+
+.social {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 200px;
+    height: 80px;
+    background-color: gray;
+}
+
+.connect {
+    width: 117px;
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7F8CFF;
+    background-color: #172B4D;
+}
+
+.vectorfram {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    height: 40px;
+    margin-top: 16px;
+    background-color: blueviolet;
+}
+
+.button {
+    order: 3;
+    width: 162px;
+    height: 48px;
+    margin-top: 22px;
+    border: 1px solid #6070FF;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.buttontxt {
+    width: 138px;
+    height: 24px;
+    margin: 12px 12px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #396DF2;
+    background-color: orangered;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 327px;
+    height: 464.15px;
+    margin-left: 24px;
+    margin-top: 114px;
+    border: 1px solid #104ce6;
+}
+
+.languages {
+    display: flex;
+    flex-direction: row;
+    width: 327px;
+    height: 72px;
+    margin-top: 24px;
+    background-color: #000;
+}
+
+.languagestxt {
+    height: 24px;
+    left: 12px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 12px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000;
+    background-color: red;
+}
+
+.downvector {
+    margin-right: 33px;
+    margin-top: 33px;
+    background-color: blue;
+}
