@@ -5,7 +5,7 @@
 # Portfolio
 
 > the first project of microverse which should look like screenshot below:
-![screenshot](./headline-mobile.png)
+![screenshot](screenshot.png)
 
 Additional features will be add during first module of learning...
 
