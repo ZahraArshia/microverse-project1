@@ -12,6 +12,11 @@ main features of this design are:
 - minimalist and simple design
 - special focuse on social media connection
 
+main features of this design are:
+- easy access to sample projects 
+- minimalist and simple design
+- special focuse on social media connection
+
 ## Built With
 
 - HTML
