@@ -143,12 +143,6 @@ h2 {
     border: 1px solid #6070FF;
     box-sizing: border-box;
     border-radius: 8px;
-}
-
-.buttontxt {
-    width: 138px;
-    height: 24px;
-    margin: 12px 12px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
