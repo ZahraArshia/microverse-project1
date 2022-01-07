@@ -22,7 +22,7 @@ creating a portfolio website
 ## Live Demo
 live demo will be add after finishing the project.
 - [Live Demo Link: works page](https://rawcdn.githack.com/ZahraArshia/microverse-project1/79e1928e4f5921c693c1180bca1d5c1c0f3c0369/works.html)
-- [Live Demo Link: aabout us page](https://rawcdn.githack.com/ZahraArshia/microverse-project1/79e1928e4f5921c693c1180bca1d5c1c0f3c0369/about.html)
+- [Live Demo Link: about us page](https://rawcdn.githack.com/ZahraArshia/microverse-project1/79e1928e4f5921c693c1180bca1d5c1c0f3c0369/about.html)
 
 
 ## Authors
