@@ -1,21 +1,18 @@
-# microverse-project1
 ![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# microverse-project1
 creating a portfolio website
+ 
 # Portfolio
 
-> this is a project of designing a mobile web paage skeleton.
-the contents are homepage, some pages including sample projects and "about" page.
-![screenshot](./screenshot.png)
+> its a template webpage designed with a web developing style. 
+> this project contain:
+> - home page : introduction to developer
+> - works page : some example cards showing sample designes
+> - about us page : information of creater and contact informations
+> the home page of this project look like this :
 
-main features of this design are:
-- easy access to sample projects 
-- minimalist and simple design
-- special focuse on social media connection
-
-main features of this design are:
-- easy access to sample projects 
-- minimalist and simple design
-- special focuse on social media connection
+![screenshot](screenshot.png)
 
 ## Built With
 
@@ -24,7 +21,8 @@ main features of this design are:
 
 ## Live Demo
 live demo will be add after finishing the project.
-[Live Demo Link](https://rawcdn.githack.com/ZahraArshia/microverse-project1/1ba92930c941b86733ec3075838be67ae478dba2/index.html)
+- [Live Demo Link: works page](https://rawcdn.githack.com/ZahraArshia/microverse-project1/79e1928e4f5921c693c1180bca1d5c1c0f3c0369/works.html)
+- [Live Demo Link: about us page](https://rawcdn.githack.com/ZahraArshia/microverse-project1/79e1928e4f5921c693c1180bca1d5c1c0f3c0369/about.html)
 
 
 ## Authors
