@@ -16,7 +16,6 @@ html {
     flex-direction: column;
     width: 327px;
     min-height: 327px;
-    height: fit-content;
     min-height: 72px;
     list-style: none;
     font-family: 'Poppins', sans-serif;
@@ -55,7 +54,7 @@ a {
     min-height: 66.72px;
     margin: 12px;
     text-align: center;
-    background: #F7F7F9;
+    background: #f7f7f9;
     border-radius: 8px;
 }
 
@@ -87,7 +86,7 @@ h1 {
     font-weight: bold;
     font-size: 40px;
     line-height: 52px;
-    color: #172B4D;
+    color: #172b4d;
 }
 
 h2 {
@@ -121,7 +120,7 @@ h2 {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #7F8CFF;
+    color: #7f8cff;
     margin-top: 12px;
 }
 
@@ -140,7 +139,7 @@ h2 {
     width: 162px;
     height: 48px;
     margin-top: 22px;
-    border: 1px solid #6070FF;
+    border: 1px solid #6070ff;
     box-sizing: border-box;
     border-radius: 8px;
     font-family: 'Poppins', sans-serif;
@@ -149,7 +148,7 @@ h2 {
     font-size: 17px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #396DF2;
+    color: #396df2;
 }
 
 .skill {
@@ -168,7 +167,6 @@ h2 {
     flex-direction: column;
     justify-content: start;
     width: 327px;
-    height: fit-content;
     min-height: 71px;
 }
 
@@ -177,7 +175,7 @@ h2 {
     flex-direction: row;
     width: 327px;
     min-height: 72px;
-    border-bottom: 1px solid #DFE1E6;
+    border-bottom: 1px solid #dfe1e6;
 }
 
 .listname {
