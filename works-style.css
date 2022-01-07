@@ -172,21 +172,20 @@
     height: 72px;
     top: 216px;
     margin-top: 16px;
+    margin-bottom: 28px;
 }
 
-.button {
+button {
+    display: flex;
     height: 48px;
     width: 126px;
-    top: 12px;
     top: calc(50% - 48px/2);
+    margin-bottom: 28px;
     border: 1px solid #6070FF;
     box-sizing: border-box;
     border-radius: 8px;
     padding: 12px;
     font-family: 'Poppins', sans-serif;
-}
-
-.buttontxt {
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
     font-style: normal;
