@@ -1,13 +1,21 @@
 # microverse-project1
- creating a portfolio website
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-
+creating a portfolio website
 # Portfolio
 
-> the first project of microverse which should look like screenshot below:
-![screenshot](screenshot.png)
+> this is a project of designing a mobile web paage skeleton.
+the contents are homepage, some pages including sample projects and "about" page.
+![screenshot](./screenshot.png)
 
-Additional features will be add during first module of learning...
+main features of this design are:
+- easy access to sample projects 
+- minimalist and simple design
+- special focuse on social media connection
+
+main features of this design are:
+- easy access to sample projects 
+- minimalist and simple design
+- special focuse on social media connection
 
 ## Built With
 
@@ -16,7 +24,7 @@ Additional features will be add during first module of learning...
 
 ## Live Demo
 live demo will be add after finishing the project.
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://rawcdn.githack.com/ZahraArshia/microverse-project1/1ba92930c941b86733ec3075838be67ae478dba2/index.html)
 
 
 ## Authors
