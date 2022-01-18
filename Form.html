@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="contact-styles.css">
+    <link rel="stylesheet" href="form-style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
@@ -16,7 +16,13 @@
         <section class="wrapper"></section>
         <h1>Contact me</h1>
         <p class="content-text">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-     
+        <form action="https://formspree.io/f/{form_id}" method="post" id="comment">
+          <ul>
+              <li><input type="text" name="text" id="name" placeholder="your name here" required minlength="1" maxlength="30"></li>
+              <li><input type="email" name="email" id="email" placeholder="your email here" required></li>
+              <li><textarea form="comment" id="msg" name="msg" placeholder="add your comment here" required minlength="1" maxlength="500"></textarea></li>
+          </ul>
+      </form>
         <button class="button" type="submit">Get In Touch</button>
         <div class="ending"></div>
     </footer>
