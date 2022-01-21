@@ -44,7 +44,8 @@ header {
   width: 320px;
 }
 
-.logo {
+.logo:hover,
+.logo:focus {
   color: #6070ff;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -106,7 +107,8 @@ header {
   height: 60px;
 }
 
-.primtext {
+.primtext:hover,
+.primtext:focus {
   display: flex;
   width: 327px;
   height: 150px;
