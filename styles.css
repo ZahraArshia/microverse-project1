@@ -44,7 +44,8 @@ header {
   width: 320px;
 }
 
-.logo {
+.logo:hover,
+.logo:focus {
   color: #6070ff;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -60,6 +61,20 @@ header {
   text-align: center;
   justify-self: start;
   align-items: flex-start;
+  /* i added this line below for animation */
+  animation: glow 2s linear 1s infinite alternate forwards;
+}
+/* and also added this keyframes part for animation of logo */
+@keyframes glow {
+  from {
+  color: #6070ff;
+  font-size: 18px;
+  }
+
+  to{
+  color: #2230d2;
+  font-size: 24px;
+  }
 }
 
 .hamburger {
@@ -92,7 +107,8 @@ header {
   height: 60px;
 }
 
-.primtext {
+.primtext:hover,
+.primtext:focus {
   display: flex;
   width: 327px;
   height: 150px;
